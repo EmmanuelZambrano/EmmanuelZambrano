@@ -48,21 +48,22 @@ table {
 }
 #wrapper{
 	font-family: Helvetica;
-	line-height: 1.5em;
+	line-height: 3em;
 }
 
 #intro{
 	background: #FBFFFC;
 	color: #BDBFBD;
-	padding: 4em 1em 4em;
+	padding: 6em 1em 6em;
 }
 #intro-content{
 	margin-left: 10%;
 }
 h1{
 	font-size: 3.5em;
-	text-align: left;
+	margin-left: 0;
 }
 p{
 	font-size: 1.5em;
+	margin-left: 0;
 }
