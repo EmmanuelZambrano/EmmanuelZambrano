@@ -46,20 +46,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
+#wrapper{
 	font-family: Helvetica;
+	line-height: 1.5em;
 }
+
 #intro{
 	background: #FBFFFC;
 	color: #BDBFBD;
 	padding: 4em 1em 4em;
 }
 #intro-content{
-	width: 90%;
 	margin-left: 10%;
 }
 h1{
-	font-size: 3em;
+	font-size: 3.5em;
+	text-align: left;
 }
 p{
 	font-size: 1.5em;
