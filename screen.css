@@ -72,7 +72,7 @@ p{
 #about-me{
 	background: #3F403F;
 	color:	#7D7F7E;
-	padding: 4em 1em 4em;
+	padding: 4em 0 4em;
 }
 #am-content{
 	width: 100%;
@@ -96,6 +96,7 @@ img{
 	padding-bottom: 0;
 }
 figcaption{
+	margin-left: 2.5%;
 	line-height: 1em;
 	font-size: small;
 }
