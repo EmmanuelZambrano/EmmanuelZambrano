@@ -67,3 +67,16 @@ p{
 	font-size: 1.5em;
 	margin-left: 0;
 }
+#about-me{
+	background: #3F403F;
+	color:	#7D7F7E;
+	padding: 4em 1em 4em;
+}
+#am-content{
+	width: 75%;
+	margin-left: 10%;
+}
+h2{
+	font-size: 3em;
+}
+
