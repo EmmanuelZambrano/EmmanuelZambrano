@@ -83,11 +83,11 @@ h2{
 	font-size: 2.5em;
 }
 h2+p{
+	font-size: 1.25em;
 	margin-top: 1.5em;
 }
-#iit-image{
-}
 img{
+	height: 100%;
 	width: 100%;
 	padding-bottom: 0;
 }
