@@ -72,12 +72,13 @@ p{
 }
 #about-me{
 	background: #3F403F;
-	color:	#7D7F7E;
 	padding: 4em 0 4em;
 }
 #am-content{
 	width: 100%;
 	line-height: 2em;
+	margin-left: 5%;
+	width: 90%;
 }
 h2{
 	color:	#7D7F7E;
@@ -88,10 +89,6 @@ h2+p{
 	font-size: 1.25em;
 	margin-top: 1.5em;
 }
-#am-content{
-	margin-left: 5%;
-	width: 90%;
-}
 img{
 	height: 100%;
 	width: 100%;
@@ -101,6 +98,7 @@ figcaption{
 	margin-left: 2.5%;
 	line-height: 1em;
 	font-size: small;
+	color: #7D7F7E;
 }
 #i-am{
 	background: #3F403F;
@@ -123,8 +121,11 @@ a{
 	font-size: .875em;
 	text-decoration: none;
 }
-@media (min-width: 700px) { 
-  #wrapper > div{
-		padding: 8em 1em 8em;
-	}
+footer{
+	background: #3F403F;
+}
+#contact{
+	margin-left: 5%;
+	padding: 4em 1em 4em;
+	line-height: 1.5em;
 }
