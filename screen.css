@@ -121,13 +121,13 @@ a{
 	font-size: .875em;
 	text-decoration: none;
 }
-footer{
-	background: #3F403F;
-	padding: 4em 1em 4em;
-	width: 100%;
-}
 #contact{
 	margin-left: 5%;
-	line-height: 1.875em;
+	line-height: 1.875em;	
+}
+footer{
+	width: 100%;
+	background: #3F403F;
+	padding: 4em 1em 4em;
 }
 
