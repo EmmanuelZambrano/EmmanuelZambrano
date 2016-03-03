@@ -46,14 +46,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* MY CSS RULES */
+
 #wrapper{
 	font-family: Helvetica;
 	line-height: 1em;
+	width: 100%;
 }
 
 #intro{
 	background: #FBFFFC;
 	padding: 6em 1em 6em;
+	height: 100vh;
 }
 #intro-content{
 	line-height: 3em;
@@ -72,13 +76,12 @@ p{
 }
 #about-me{
 	background: #3F403F;
+	width: 100%;
 	padding: 4em 1em 4em;
 }
 #am-content{
-	width: 100%;
 	line-height: 2em;
 	margin-left: 5%;
-	width: 90%;
 }
 h2{
 	color:	#7D7F7E;
@@ -135,6 +138,4 @@ footer{
 	width: 4em;
 	height: 4em;
 }
-.down > img{
-	margin-bottom: 0;
-}
+
