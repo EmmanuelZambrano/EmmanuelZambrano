@@ -58,21 +58,27 @@ table {
 	margin-left: 5%;
 }
 #intro-content{
-	padding: 4em 0 4em 0;
+	padding: 5em 0 5em 0;
 }
 #about-me{
 	width:100%;
-	
+	padding: 5em 0 5em 0;
 }
 #iit-image{
 	width: 100%;
 }
 img{
 	max-width: 100%;
+	margin: 0 auto;
 }
 #am-content{
 	width: 95%;
 	margin-left: 5%;
+}
+.down{
+	margin: 0 auto;
+	width: 10%;
+	height: 10%;
 }
 #i-am{
 	margin-left: 5%;
