@@ -78,6 +78,9 @@ img{
 	margin-left: 5%;
 	line-height: 1.5em;
 }
+#am-content > h2{
+	line-height: 2em;
+}
 .down{
 	margin: 0 auto;
 	width: 10%;
@@ -86,16 +89,16 @@ img{
 #i-am{
 	margin-left: 5%;
 	width: 95%;
-	padding: 0 0 5em 0;
+	padding: 5em 0 5em 0;
 	line-height: 1.5em;
 }
-footer{
+#contact{
 	line-height: 1.5em;
 	margin-left: 5%;
 	width: 95%;
 }
 h1, h2{
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 700;
 	color: #0C0C0E;
 }
@@ -103,5 +106,8 @@ p, li{
 	font-size: 1.25em;
 }
 figcaption{
+	font-size: small;
+}
+a > p{
 	font-size: small;
 }
