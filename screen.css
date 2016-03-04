@@ -49,19 +49,20 @@ table {
 /* MY CSS RULES */
 
 #wrapper{
-	background:#F4F2F3;
 	width: 100%;
 	font-family: Helvetica;
 }
 #intro{
-	width:95%;
-	margin-left: 5%;
+	background: #2E2E2E;
+	width: 100%;
 	line-height: 2.5em;
 }
 #intro-content{
+	margin-left: 5%;
 	padding: 5em 0 5em 0;
 }
 #about-me{
+	background: #3F3F3F;
 	width:100%;
 	padding: 0 0 5em 0;
 }
@@ -80,36 +81,37 @@ img{
 #am-content > h2{
 	line-height: 2em;
 }
-.down{
-	margin: 0 auto;
-	width: 10%;
-	height: 10%;
-}
 #i-am{
-	margin-left: 5%;
-	width: 95%;
+	background: #2E2E2E;
+	width: 100%
 	padding: 0 0 5em 0;
 	line-height: 1.5em;
+}
+#i-am-content{
+	text-indent: 5%;
 }
 #i-am-content > h2{
 	line-height: 2em;
 }
 #contact{
+	background: #3F3F3F;
 	line-height: 1.5em;
-	margin-left: 5%;
-	width: 95%;
-		padding: 0 0 2em 0;
+	text-indent: 5%;
+	width: 100%
+	padding: 2em 0 2em 0;
 }
 h1, h2{
 	font-size: 2em;
 	font-weight: 700;
-	color: #0C0C0E;
+	color: #C1C1C1;
 }
 p, li{
 	font-size: 1.25em;
+	color: #8D8D8D;
 }
 figcaption{
 	font-size: small;
+	color: #747474;
 }
 a > p{
 	font-size: 1em;
@@ -117,6 +119,6 @@ a > p{
 a{
 	text-decoration: none;
 }
-li, figcaption{
-	text-indent: 5%;
+li{
+	text-indent: 10%;
 }
