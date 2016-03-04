@@ -81,7 +81,7 @@ figure{
   margin-right: auto;
 }
 #am-content{
-	width: 95%;
+	width: 90%;
 	margin-left: 5%;
 	line-height: 1.5em;
 }
@@ -95,7 +95,8 @@ figure{
 #i-am-content{
 	line-height: 1.5em;
 	padding: 0 0 4em 0;
-	text-indent: 5%;
+	margin-left: 5%;
+	width: 90%;
 }
 #i-am-content > h2{
 	line-height: 2em;
