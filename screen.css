@@ -49,93 +49,29 @@ table {
 /* MY CSS RULES */
 
 #wrapper{
+	background:#F4F2F3;
+	width 100%;
 	font-family: Helvetica;
-	line-height: 1em;
-	width: 100%;
 }
-
 #intro{
-	background: #FBFFFC;
-	padding: 6em 1em 6em;
-	height: 100vh;
-}
-#intro-content{
-	line-height: 3em;
-	margin-left: 10%;
-}
-h1{
-	font-size: 3.25em;
-	margin-left: 0;
-	color: #7D7F7E;
-	text-shadow: .03em .03em #BDBFBD;
-}
-p{
-	color: #7D7F7E;
-	font-size: 1.25em;
-	margin-left: 0;
+	width:100%;
 }
 #about-me{
-	background: #3F403F;
-	width: 100%;
-	padding: 4em 1em 4em;
-}
-#am-content{
-	line-height: 2em;
-	margin-left: 5%;
-}
-h2{
-	color:	#7D7F7E;
-	margin-top: 1.5em;
-	font-size: 2.5em;
-}
-h2+p{
-	font-size: 1.25em;
-	margin-top: 1.5em;
-}
-img{
-	height: 100%;
-	width: 100%;
-}
-figcaption{
-	margin-left: 2.5%;
-	line-height: 1em;
-	font-size: small;
-	color: #7D7F7E;
+	width:100%;
 }
 #i-am{
-	background: #FBFFFC;
-	color:	#7D7F7E;
-	padding: 4em 1em 4em;
 	width: 100%;
-}
-#i-am-content{
-	line-height: 1.75em;
-	margin-left: 5%;
-}
-ul{
-	padding-top: 1.5em;
-}
-li{
-	font-size: 1.25em;
-	color: #7D7F7E;
-	margin-left: 5%;
-}
-a{
-	font-size: .875em;
-	text-decoration: none;
-}
-#contact{
-	margin-left: 5%;
-	line-height: 1.875em;	
 }
 footer{
 	width: 100%;
-	background: #3F403F;
-	padding: 4em 1em 4em;
 }
-.down{
-	margin: 0 auto;
-	width: 4em;
-	height: 4em;
+h1, h2{
+	font-size: 3em;
+	font-weight: 700;
 }
-
+p, li{
+	font-size: 1.5em;
+}
+figcaption{
+	font-size: small;
+}
