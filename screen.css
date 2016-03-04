@@ -57,12 +57,18 @@ table {
 	width:95%;
 	margin-left: 5%;
 }
+#intro-content{
+	padding: 4em 0 4em 0;
+}
 #about-me{
 	width:100%;
 	
 }
 #iit-image{
 	width: 100%;
+}
+img{
+	max-width: 100%;
 }
 #am-content{
 	width: 95%;
