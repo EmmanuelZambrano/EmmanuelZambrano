@@ -62,7 +62,8 @@ table {
 }
 #about-me{
 	width:100%;
-	padding: 5em 0 5em 0;
+	height: 100vh;
+	padding: 0 0 5em 0;
 }
 #iit-image{
 	width: 100%;
@@ -94,7 +95,7 @@ h1, h2{
 	color: #0C0C0E;
 }
 p, li{
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 figcaption{
 	font-size: small;
