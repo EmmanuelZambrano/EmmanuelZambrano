@@ -63,7 +63,6 @@ table {
 }
 #about-me{
 	width:100%;
-	height: 100vh;
 	padding: 0 0 5em 0;
 }
 #iit-image{
@@ -89,7 +88,7 @@ img{
 #i-am{
 	margin-left: 5%;
 	width: 95%;
-	padding: 5em 0 5em 0;
+	padding: 0 0 5em 0;
 	line-height: 1.5em;
 }
 #contact{
@@ -109,5 +108,8 @@ figcaption{
 	font-size: small;
 }
 a > p{
-	font-size: small;
+	font-size: 1em;
+}
+li, figcaption{
+	text-indent: 5%;
 }
