@@ -54,20 +54,32 @@ table {
 	font-family: Helvetica;
 }
 #intro{
-	width:100%;
+	width:95%;
+	margin-left: 5%;
 }
 #about-me{
 	width:100%;
+	
+}
+#iit-image{
+	width: 100%;
+}
+#am-content{
+	width: 95%;
+	margin-left: 5%;
 }
 #i-am{
-	width: 100%;
+	margin-left: 5%;
+	width: 95%;
 }
 footer{
-	width: 100%;
+	margin-left: 5%;
+	width: 95%;
 }
 h1, h2{
 	font-size: 3em;
 	font-weight: 700;
+	color: #0C0C0E;
 }
 p, li{
 	font-size: 1.5em;
