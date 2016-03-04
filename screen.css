@@ -59,7 +59,7 @@ table {
 }
 #intro-content{
 	margin-left: 5%;
-	padding: 5em 0 5em 0;
+	padding: 6em 0 6em 0;
 }
 #about-me{
 	background: #3F3F3F;
@@ -84,20 +84,22 @@ img{
 #i-am{
 	background: #2E2E2E;
 	width: 100%
-	padding: 0 0 5em 0;
-	line-height: 1.5em;
 }
 #i-am-content{
+	line-height: 1.5em;
+	padding: 0 0 5em 0;
 	text-indent: 5%;
 }
 #i-am-content > h2{
 	line-height: 2em;
 }
-#contact{
+footer{
 	background: #3F3F3F;
+	width: 100%
+}
+#contact{
 	line-height: 1.5em;
 	text-indent: 5%;
-	width: 100%
 	padding: 2em 0 2em 0;
 }
 h1, h2{
