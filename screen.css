@@ -71,11 +71,12 @@ table {
 }
 img{
 	max-width: 100%;
-	margin: auto;
+	margin: 0 auto;
 }
 figure{
+	display: block;
 	max-width: 100%;
-	margin: auto;
+	margin: 0 auto;
 }
 #am-content{
 	width: 95%;
