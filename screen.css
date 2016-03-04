@@ -121,6 +121,7 @@ p, li{
 figcaption{
 	font-size: small;
 	color: #747474;
+	margin-left: 2.5%;
 }
 a > p{
 	font-size: 1em;
