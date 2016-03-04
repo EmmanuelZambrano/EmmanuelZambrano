@@ -50,12 +50,13 @@ table {
 
 #wrapper{
 	background:#F4F2F3;
-	width 100%;
+	width: 100%;
 	font-family: Helvetica;
 }
 #intro{
 	width:95%;
 	margin-left: 5%;
+	line-height: 2.5em;
 }
 #intro-content{
 	padding: 5em 0 5em 0;
@@ -75,6 +76,7 @@ img{
 #am-content{
 	width: 95%;
 	margin-left: 5%;
+	line-height: 1.5em;
 }
 .down{
 	margin: 0 auto;
@@ -84,8 +86,11 @@ img{
 #i-am{
 	margin-left: 5%;
 	width: 95%;
+	padding: 0 0 5em 0;
+	line-height: 1.5em;
 }
 footer{
+	line-height: 1.5em;
 	margin-left: 5%;
 	width: 95%;
 }
