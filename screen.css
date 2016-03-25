@@ -49,7 +49,9 @@ table {
 /* MY CSS RULES */
 /*Base*/
 body{
+	line-height: 1.5em;
 	font-family: Helvetica;
+	width: 100%;
 }
 h1, h2{
 	font-size: 2em;
@@ -70,9 +72,10 @@ figcaption{
 }
 /*Layout*/
 #intro{
-	line-height: 2.5em;
+	line-height: 1.5em;
 	background: #2E2E2E;
 	width: 100%;
+	padding: 4em 0 4em 0;
 }
 #about-me{
 	background: #3F3F3F;
@@ -82,9 +85,11 @@ figcaption{
 #i-am{
 	background: #2E2E2E;
 	width: 100%
+	padding: 0 0 4em 0;
 }
 footer{
 	background: #3F3F3F;
+	padding: 2em 0 2em 0;
 	width: 100%
 	text-indent: 5%;
 }
