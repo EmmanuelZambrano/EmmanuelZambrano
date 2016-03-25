@@ -47,68 +47,9 @@ table {
 	border-spacing: 0;
 }
 /* MY CSS RULES */
-
-#wrapper{
-	width: 100%;
+/*Base*/
+body{
 	font-family: Helvetica;
-}
-#intro{
-	background: #2E2E2E;
-	width: 100%;
-	line-height: 2.5em;
-}
-#intro-content{
-	margin-left: 5%;
-	padding: 6em 0 6em 0;
-}
-#about-me{
-	background: #3F3F3F;
-	width:100%;
-	padding: 0 0 4em 0;
-}
-#iit-image{
-	width: 100%;
-}
-img{
-	max-width: 100%;
-	margin-left: auto;
-  margin-right: auto;
-}
-figure{
-	display: block;
-	max-width: 100%;
-	margin-left: auto;
-  margin-right: auto;
-}
-#am-content{
-	width: 90%;
-	margin-left: 5%;
-	line-height: 1.5em;
-}
-#am-content > h2{
-	line-height: 2em;
-}
-#i-am{
-	background: #2E2E2E;
-	width: 100%
-}
-#i-am-content{
-	line-height: 1.5em;
-	padding: 0 0 4em 0;
-	margin-left: 5%;
-	width: 90%;
-}
-#i-am-content > h2{
-	line-height: 2em;
-}
-footer{
-	background: #3F3F3F;
-	width: 100%
-}
-#contact{
-	line-height: 1.5em;
-	text-indent: 5%;
-	padding: 4em 0 4em 0;
 }
 h1, h2{
 	font-size: 2em;
@@ -116,33 +57,44 @@ h1, h2{
 	color: #C1C1C1;
 }
 p, li{
-	font-size: 1.25em;
+	font-size: 1em;
 	color: #8D8D8D;
 }
-figcaption{
-	font-size: small;
-	color: #747474;
-	margin-left: 2.5%;
-}
-a > p{
-	font-size: 1em;
-}
 a{
+	font-size: 1em;
 	text-decoration: none;
 }
-li{
-	text-indent: 10%;
+figcaption{
+	font-size: .875em;
+	color: #8D8D8D;
+}
+/*Layout*/
+#intro{
+	line-height: 2.5em;
+	background: #2E2E2E;
+	width: 100%;
+}
+#about-me{
+	background: #3F3F3F;
+	width:100%;
+	padding: 0 0 4em 0;
+}
+#i-am{
+	background: #2E2E2E;
+	width: 100%
+}
+footer{
+	background: #3F3F3F;
+	width: 100%
+	text-indent: 5%;
+}
+/*Module*/
+figure{
+	max-width: 100%;
+	margin: auto;
+}
+img{
+	max-width: 100%;
+	margin: auto;
 }
 
-@media (min-width: 700px){
-	#am-content{
-		width: 60%;
-		margin: auto;
-		padding: 0 0 6em 0;
-	}
-	#i-am-content{
-		width: 60%;
-		margin: auto;
-		padding: 0 0 6em 0;
-	}
-} 
