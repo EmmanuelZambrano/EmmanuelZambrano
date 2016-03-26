@@ -95,7 +95,7 @@ figcaption{
 }
 footer{
 	background: #3F3F3F;
-	padding: 2em 0 2em 0;
+	padding: 3em 0 3em 0;
 }
 /*Module*/
 figure{
@@ -113,6 +113,6 @@ img{
 	float: left;
 }
 .icons{
-	width: 2.5em;
-	height: 2.5em;
+	width: 3em;
+	height: 3em;
 }
