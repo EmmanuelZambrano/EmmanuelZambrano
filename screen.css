@@ -118,6 +118,7 @@ img{
 	width: 3em;
 	height: 3em;
 }
+/*State*/
 @media (min-width: 700px) {
   h1, h2, p, li, a, figcaption{
 		margin-left: 15%;
