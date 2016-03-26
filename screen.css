@@ -70,7 +70,9 @@ p, li{
 }
 a{
 	font-size: 1em;
-	text-decoration: none;
+}
+a > p{
+	text-decoration: underline #8D8D8D;
 }
 figcaption{
 	font-size: .875em;
