@@ -73,6 +73,8 @@ a{
 }
 a > p{
 	text-decoration: underline #8D8D8D;
+	-webkit-text-decoration: underline #8D8D8D;
+	-moz-text-decoration: underline #8D8D8D;
 }
 figcaption{
 	font-size: .875em;
