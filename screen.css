@@ -61,8 +61,8 @@ h1, h2{
 	font-weight: 700;
 	color: #C1C1C1;
 }
-h2{
-	padding: 1em 0 0 0;
+#about-me > h2,#i-am > h2, ul{
+	padding: 1em 0 1em 0;
 }
 p, li{
 	font-size: 1em;
@@ -75,7 +75,6 @@ a{
 figcaption{
 	font-size: .875em;
 	color: #8D8D8D;
-	padding: 0 0 0 0;
 }
 /*Layout*/
 
@@ -100,10 +99,12 @@ footer{
 figure{
 	max-width: 100%;
 	margin: auto;
+	width: 100%;
+	height: 100%;
+	text-align: center;
 }
 img{
 	max-width: 100%;
 	margin: auto;
-	padding: 0 0 0 0;
 }
 
