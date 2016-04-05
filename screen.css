@@ -120,10 +120,16 @@ img{
 }
 /*State*/
 @media (min-width: 700px) {
-  h1, h2, p, li, a, figcaption{
+  h1, h2, p, li, a{
 		margin-left: 15%;
 	}
   #about-me > p {
     width: 30em;
   }
+  figure{
+		margin-left: 15%;
+		width: 75%;
+		text-align: center;
+	}
+	
 }
