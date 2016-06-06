@@ -55,7 +55,7 @@ body{
 	background: #2E2E2E;
 }
 h1, h2, p, li, a, figcaption{
-	margin-left: 5%;
+	margin-left: 8%;
 }
 h1{
 	line-height: 1.816em;
@@ -114,7 +114,7 @@ footer{
 		margin-left: 20%;
 	}
   #about-me > p {
-    width: 30em;
+    width: 29.03em;
   }
 	
 }
