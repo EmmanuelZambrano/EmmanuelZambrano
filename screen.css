@@ -50,8 +50,9 @@ table {
 /*Base*/
 body{
 	line-height: 1.5em;
-	font-family: Helvetica;
+	font-family: 'Roboto', sans-serif;
 	width: 100%;
+	background: #2E2E2E;
 }
 h1, h2, p, li, a, figcaption{
 	margin-left: 5%;
@@ -64,6 +65,9 @@ h1, h2{
 #about-me > h2,#i-am > h2, ul{
 	padding: 1em 0 1em 0;
 }
+p, a, li{
+	font-family: 'Ledger', serif;
+}
 p, li{
 	font-size: 1em;
 	color: #8D8D8D;
@@ -72,26 +76,17 @@ a{
 	font-size: 1em;
 	text-decoration: none;
 }
-a > p{
-	text-decoration: underline #8D8D8D;
-}
-figcaption{
-	font-size: .875em;
-	color: #8D8D8D;
-}
+
 /*Layout*/
 
 #intro{
 	line-height: 2em;
-	background: #2E2E2E;
 	padding: 4em 0 4em 0;
 }
 #about-me{
-	background: #3F3F3F;
 	padding: 0 0 4em 0;
 }
 #i-am{
-	background: #2E2E2E;
 	padding: 0 0 4em 0;
 }
 footer{
@@ -99,11 +94,6 @@ footer{
 	padding: 4em 0 4em 0;
 }
 /*Module*/
-figure{
-	max-width: 100%;
-	width: 100%;
-	height: 100%;
-}
 img{
 	max-width: 100%;
 }
@@ -111,9 +101,9 @@ img{
 	float: left;
 }
 .icons{
-	padding: .5em 0 .5em 0;
-	width: 3em;
-	height: 3em;
+	padding: .25em 0 .25em 0;
+	width: 2em;
+	height: 2em;
 }
 /*State*/
 @media (min-width: 700px) {
@@ -123,10 +113,5 @@ img{
   #about-me > p {
     width: 30em;
   }
-  figure{
-		margin-left: 15%;
-		width: 75%;
-		text-align: center;
-	}
 	
 }
