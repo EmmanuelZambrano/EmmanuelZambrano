@@ -108,7 +108,7 @@ img{
 /*State*/
 @media (min-width: 700px) {
   h1, h2, p, li, a{
-		margin-left: 15%;
+		margin-left: 25%;
 	}
   #about-me > p {
     width: 30em;
