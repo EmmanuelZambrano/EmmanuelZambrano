@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -48,56 +48,9 @@ table {
 }
 /* MY CSS RULES */
 /*Base*/
-body{
-	line-height: 1.618em;
-	font-family: 'Roboto', sans-serif;
-	width: 100%;
-	background: #2E2E2E;
-}
-h1, h2, p, li, a, figcaption{
-	margin-left: 8%;
-}
-h1{
-	line-height: 1.816em;
-	font-size: 2.618em;
-	font-weight: 700;
-	color: #C1C1C1;
-}
-h2{
-	font-size: 1.618em;
-	font-weight: 700;
-	color: #C1C1C1;
-}
-#about-me > h2,#i-am > h2, ul{
-	padding: 1em 0 1em 0;
-}
-p, a, li{
-	font-family: 'Ledger', serif;
-}
-p, li{
-	font-size: 1em;
-	color: #8D8D8D;
-}
-a{
-	font-size: 1em;
-	text-decoration: none;
-}
 
 /*Layout*/
 
-#intro{
-	padding: 4.236em 0 4.236em 0;
-}
-#about-me{
-	padding: 0 0 4.236em 0;
-}
-#i-am{
-	padding: 0 0 4.236em 0;
-}
-footer{
-	background: #3F3F3F;
-	padding: 4.236em 0 4.236em 0;
-}
 /*Module*/
 
 #sm-icons > li{
@@ -110,11 +63,5 @@ footer{
 }
 /*State*/
 @media (min-width: 700px) {
-  h1, h2, p, li, a{
-		margin-left: 20%;
-	}
-  #about-me > p {
-    width: 29.03em;
-  }
-	
+  
 }
