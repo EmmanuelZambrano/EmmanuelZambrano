@@ -48,9 +48,34 @@ table {
 }
 /* MY CSS RULES */
 /*Base*/
-
+body{
+	width: 100%;
+}
+h1, h2{
+	font-size: 2.618em;
+}
+p{
+	font-size: 1.618em;
+}
+a{
+	font-size: 1em;
+}
 /*Layout*/
+#intro{
+	
+}
+#foot{
 
+}
+#tech{
+
+}
+#art{
+
+}
+footer{
+
+}
 /*Module*/
 
 #sm-icons > li{
@@ -63,5 +88,5 @@ table {
 }
 /*State*/
 @media (min-width: 700px) {
-  
+
 }
