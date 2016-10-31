@@ -50,31 +50,39 @@ table {
 /*Base*/
 body{
 	width: 100%;
+	line-height: 1.563em;
+
+	font-family: fantasy;
 }
-h1, h2{
-	font-size: 2.618em;
+h1{
+	font-size: 1.953em;
+}
+h2{
+	font-size: 1.563em;
+}
+h3{
+	font-size: 1.25em;
+}
+h1,h2,h3{
+	line-height: 1.953em;
 }
 p{
-	font-size: 1.618em;
-}
-a{
 	font-size: 1em;
 }
+a{
+	font-size: .8em;
+}
 /*Layout*/
+
 #intro{
-	
+	padding: 3.052em 3.052em 0 3.052em ;
 }
-#foot{
 
-}
-#tech{
-
-}
-#art{
-
+#interest{
+	padding: 3.052em 3.052em 0 3.052em ;
 }
 footer{
-
+	padding: 3.052em 3.052em 3.052em 3.052em ;
 }
 /*Module*/
 
@@ -82,11 +90,14 @@ footer{
 	float: left;
 }
 .icons{
-	padding: .236em .236em .236em 0;
+	padding: 3.052em 3.052em 3.052em 3.052em ;
 	width: 2.618em;
 	height: 2.618em;
 }
 /*State*/
 @media (min-width: 700px) {
+	p{
+		max-width: 60%;
+	}
 
 }
