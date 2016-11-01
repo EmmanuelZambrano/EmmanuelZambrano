@@ -51,8 +51,7 @@ table {
 body{
 	width: 100%;
 	line-height: 1.563em;
-
-	font-family: fantasy;
+	font-family: 'PT Sans', sans-serif;
 }
 h1{
 	font-size: 1.953em;
