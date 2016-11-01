@@ -86,14 +86,6 @@ footer{
 }
 /*Module*/
 
-#sm-icons > li{
-	float: left;
-}
-.icons{
-	padding: 3.052em 3.052em 3.052em 3.052em ;
-	width: 2.618em;
-	height: 2.618em;
-}
 /*State*/
 @media (min-width: 700px) {
 	p{
