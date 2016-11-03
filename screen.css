@@ -52,6 +52,7 @@ body{
 	width: 100%;
 	line-height: 1.563em;
 	font-family: 'PT Sans', sans-serif;
+	background: #fefefe;
 }
 h1{
 	font-size: 1.953em;
@@ -70,6 +71,15 @@ p{
 }
 a{
 	font-size: .8em;
+	color: inherit;
+	margin: 0 .328em 0 0;
+}
+a:visited {
+	font-size: .8em;
+	color: inherit;
+}
+a:hover{
+	color: #575757;
 }
 /*Layout*/
 
