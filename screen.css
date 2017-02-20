@@ -74,7 +74,7 @@ a{
 	font-size: .8em;
 	color: inherit;
 	margin: 0 .328em 0 0;
-	display: block;
+	display: inline;
 }
 a:visited {
 	font-size: .8em;
@@ -87,18 +87,28 @@ a:hover{
 .section{
 	padding: 3.052em 3.052em 0 3.052em ;
 }
+.section a{
+	display: block;
+}
 .project{
 	padding: 3.052em 3.052em 0 3.052em ;
+	margin: 0 auto;
+}
+.project h1{
 	text-align: center;
 }
 .project p{
 	text-align: left;
+	margin-bottom: 3.052em;
 }
 footer{
 	padding: 3.052em 3.052em 3.052em 3.052em ;
 }
 /*Module*/
-
+img{
+	width: 3.052em;
+	height: 3.052em;
+}
 /*State*/
 @media (min-width: 700px) {
 	.section, .project{
