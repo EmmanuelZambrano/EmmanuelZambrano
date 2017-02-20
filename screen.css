@@ -50,6 +50,7 @@ table {
 /*Base*/
 body{
 	width: 100%;
+	max-width: 100%;
 	line-height: 1.563em;
 	font-family: 'PT Sans', sans-serif;
 	background: #fefefe;
@@ -83,16 +84,15 @@ a:hover{
 	color: #575757;
 }
 /*Layout*/
-
-#intro{
+.section{
 	padding: 3.052em 3.052em 0 3.052em ;
 }
-
-#interest{
+.project{
 	padding: 3.052em 3.052em 0 3.052em ;
+	text-align: center;
 }
-#recentWork{
-	padding: 3.052em 3.052em 0 3.052em ;
+.project p{
+	text-align: left;
 }
 footer{
 	padding: 3.052em 3.052em 3.052em 3.052em ;
@@ -101,8 +101,11 @@ footer{
 
 /*State*/
 @media (min-width: 700px) {
-	p{
-		max-width: 60%;
+	.section, .project{
+		width: 60%;
+	}
+	.project{
+		margin-left: 20%;
 	}
 
 }
