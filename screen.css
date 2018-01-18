@@ -101,9 +101,6 @@ a:hover{
 	text-align: left;
 	margin-bottom: 3.052em;
 }
-footer{
-	padding: 3.052em 3.052em 3.052em 3.052em ;
-}
 /*Module*/
 img{
 	width: 3.052em;
@@ -117,5 +114,4 @@ img{
 	.project{
 		margin-left: 20%;
 	}
-
 }
