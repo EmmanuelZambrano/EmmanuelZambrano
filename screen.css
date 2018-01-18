@@ -49,69 +49,14 @@ table {
 /* MY CSS RULES */
 /*Base*/
 body{
-	width: 100%;
-	max-width: 100%;
-	line-height: 1.563em;
 	font-family: 'PT Sans', sans-serif;
 	background: #fefefe;
 }
-h1{
-	font-size: 1.953em;
-}
-h2{
-	font-size: 1.563em;
-}
-h3{
-	font-size: 1.25em;
-}
-h1,h2,h3{
-	line-height: 1.953em;
-}
-p{
-	font-size: 1em;
-}
-a{
-	font-size: .8em;
-	color: inherit;
-	margin: 0 .328em 0 0;
-	display: inline;
-}
-a:visited {
-	font-size: .8em;
-	color: inherit;
-}
-a:hover{
-	color: #575757;
-}
 /*Layout*/
-.section{
-	padding: 3.052em 3.052em 0 3.052em ;
-}
-.section a{
-	display: block;
-}
-.project{
-	padding: 3.052em 3.052em 0 3.052em ;
-	margin: 0 auto;
-}
-.project h1{
-	text-align: center;
-}
-.project p{
-	text-align: left;
-	margin-bottom: 3.052em;
-}
+
 /*Module*/
-img{
-	width: 3.052em;
-	height: 3.052em;
-}
+
 /*State*/
 @media (min-width: 700px) {
-	.section, .project{
-		width: 60%;
-	}
-	.project{
-		margin-left: 20%;
-	}
+	
 }
