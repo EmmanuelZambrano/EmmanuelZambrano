@@ -102,3 +102,16 @@ body {
 /*Module*/
 
 /*State*/
+@media (min-width: 600px) {
+	body {
+		padding: 2.369em 2.369em 2.369em 2.369em;
+	}
+  p{
+		width: 80%;
+	}
+}
+@media (min-width: 900px) {
+  p{
+		width: 60%;
+	}
+}
