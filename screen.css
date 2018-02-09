@@ -96,17 +96,13 @@ a:hover {
 }
 /*Layout*/
 body {
-	padding: 1.333em 1.333em 1.333em 0;
-	margin-left: 12%;
+	padding: 1.333em 1.333em 1.333em 1.333em;
 }
 
 /*Module*/
 
 /*State*/
 @media (min-width: 600px) {
-	body {
-		padding: 2.369em 0 2.369em 0;
-	}
   p{
 		width: 80%;
 	}
