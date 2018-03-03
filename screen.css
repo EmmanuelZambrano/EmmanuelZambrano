@@ -62,7 +62,7 @@ p {
 	margin-bottom: 1.3em;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
@@ -70,45 +70,77 @@ h1, h2, h3, h4 {
 
 h1 {
   margin-top: 0;
-  font-size: 3.157em;
+	font-size: 1.777em;
+
 }
 
 h2 {
-	font-size: 2.369em;
+	font-size: 1.333em;
 }
 
 h3 {
-	font-size: 1.777em;
-}
-h4 {
 	font-size: 1.333em;
 }
+h4 {
+}
 a {
-	color: gray;
-	text-decoration: none;
+	font-size: 1em;
+	color: grey;
 }
 a:visited {
-	color: gray;
-	text-decoration: none;
+	color: grey;
 }
 a:hover {
 	color: black;
+}
+span{
+	color: grey;
+	font-style: italic;
 }
 /*Layout*/
 body {
 	padding: 1.333em 1.333em 1.333em 1.333em;
 }
+main{
+	display: flex;
+	flex-direction: column;
+}
 
 /*Module*/
-
+img {
+	margin: 1.3em 0 1.3em 0;
+	display: block;
+	width: 100%;
+}
+span {
+	display: block;
+}
+li:hover {
+	cursor: pointer;
+	color: grey;
+}
 /*State*/
-@media (min-width: 600px) {
-  p{
-		width: 80%;
+@media (min-width: 760px) {
+	main{
+		flex-direction: row;
+	}
+	h3 {
+	  margin: 0 0 0.5em;
+	}
+	header {
+		width: 23.612em;
+	}
+	article{
+		width: 100%;
+		padding: 0 1.333em 0 1.333em;
+	}
+	img {
+		margin-left: auto;
+	  margin-right: auto;
 	}
 }
-@media (min-width: 900px) {
-  p{
-		width: 60%;
+@@media (min-width: 900px) {
+	header {
+		width: 31.475em;
 	}
 }
