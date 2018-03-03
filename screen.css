@@ -110,7 +110,7 @@ main{
 img {
 	margin: 1.3em 0 1.3em 0;
 	display: block;
-	width: 100%;
+	max-width: 100%;
 }
 span {
 	display: block;
@@ -134,13 +134,18 @@ li:hover {
 		width: 100%;
 		padding: 0 1.333em 0 1.333em;
 	}
-	img {
-		margin-left: auto;
-	  margin-right: auto;
-	}
+
 }
-@@media (min-width: 900px) {
+@media (min-width: 1000px) {
 	header {
 		width: 31.475em;
+	}
+	img {
+		max-width: 90%;
+	}
+}
+@media (min-width: 1200px) {
+	img {
+		max-width: 80%;
 	}
 }
