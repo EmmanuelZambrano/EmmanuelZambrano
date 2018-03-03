@@ -107,6 +107,9 @@ main{
 }
 
 /*Module*/
+header{
+	border-bottom: 1px grey solid;
+}
 img {
 	margin: 1.3em 0 1.3em 0;
 	display: block;
@@ -114,6 +117,11 @@ img {
 }
 span {
 	display: block;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 li:hover {
 	cursor: pointer;
@@ -130,11 +138,15 @@ li:hover {
 	main{
 		flex-direction: row;
 	}
+	ul {
+		flex-direction: column;
+	}
 	h3 {
 	  margin: 0 0 0.5em;
 	}
 	header {
 		width: 23.612em;
+		border-bottom: none;
 	}
 	article{
 		width: 100%;
