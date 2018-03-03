@@ -85,13 +85,13 @@ h4 {
 }
 a {
 	font-size: 1em;
-	color: grey;
+	color: black;
 }
 a:visited {
-	color: grey;
+	color: black;
 }
 a:hover {
-	color: black;
+	color: grey;
 }
 span{
 	color: grey;
@@ -117,6 +117,12 @@ span {
 }
 li:hover {
 	cursor: pointer;
+	color: grey;
+}
+.active{
+	color: grey;
+}
+.active:hover {
 	color: grey;
 }
 /*State*/
