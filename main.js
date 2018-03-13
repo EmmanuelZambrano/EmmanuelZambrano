@@ -11,7 +11,7 @@ function addArticle1(){
   document.getElementById('project3').classList.remove("active");
   var article = '<h3>JFTF</h3>';
   article += '<span>Web presence for local artist.</span>';
-  article += '<a href="http://jacefromthefuture.com"><img src="Images/jacesite.png" alt="Image of JFTF site."></a>';
+  article += '<a href="http://jacefromthefuture.com"><img src="images/jacesite.png" alt="Image of JFTF site."></a>';
   content.innerHTML = article;
 }
 
