@@ -53,7 +53,7 @@ html {
 }
 body {
 	font-family: 'PT Sans', sans-serif;
-  background-color: white;
+  background-color: #ffffff;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -71,31 +71,37 @@ h1, h2, h3 {
 h1 {
   margin-top: 0;
 	font-size: 1.777em;
-
+	color: #212121;
 }
 
 h2 {
 	font-size: 1.333em;
+	color: #455a64;
 }
 
 h3 {
 	font-size: 1.333em;
-}
-h4 {
+	color: #607D8B;
 }
 a {
 	font-size: 1em;
-	color: black;
+	color: #757575;
+	text-decoration: none;
 }
 a:visited {
-	color: black;
+	color: #757575;
 }
 a:hover {
-	color: grey;
+	color: #9e9e9e;
+}
+li {
+	font-size: 1em;
 }
 span{
-	color: grey;
+	font-size: 1em;
+	color: #9e9e9e;
 	font-style: italic;
+
 }
 /*Layout*/
 body {
@@ -108,7 +114,7 @@ main{
 
 /*Module*/
 header{
-	border-bottom: 1px grey solid;
+	border-bottom: 1px #bdbdbd solid;
 }
 img {
 	margin: 1.3em 0 1.3em 0;
@@ -125,13 +131,13 @@ ul {
 }
 li:hover {
 	cursor: pointer;
-	color: grey;
+	color: #bdbdbd;
 }
 .active{
-	color: grey;
+	color: #607d8b;
 }
 .active:hover {
-	color: grey;
+	color: #607d8b;
 }
 /*State*/
 @media (min-width: 760px) {
