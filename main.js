@@ -21,7 +21,8 @@ function addArticle2(){
   document.getElementById('project2').className = "active";
   document.getElementById('project3').classList.remove("active");
   var article = '<h3>GetStarted</h3>';
-  article += '<span>Hub of knowledge with the contribution of experts for people trying to learn new things. (coming soon..)</span>';
+  article += '<span>Hub of knowledge with the contribution of experts for people trying to learn new things.</span>';
+  article += '<a href="https://github.com/EmmanuelZambrano/get-started/tree/master/get-started">GitHub</a>';
   content.innerHTML = article;
 }
 
@@ -30,7 +31,10 @@ function addArticle3(){
   document.getElementById('project1').classList.remove("active");
   document.getElementById('project2').classList.remove("active");
   document.getElementById('project3').className = "active";
-  var article = '<h3>FixIIT</h3>';
-  article += '<span>Place to report things that need fixing around campus. (coming soon..)</span>';
+  var article = '<h3>FreeCad Style Guide</h3>';
+  article += '<span>Style Guide for an Open Source Project.</span>';
+  article += '<img src="images/FreeCAD.jpg" alt="Style Guide pt1.">';
+  article += '<img src="images/FreeCAD2.jpg" alt="Style Guide pt2.">';
+  article += '<img src="images/FreeCAD3.jpg" alt="Style Guide pt3.">';
   content.innerHTML = article;
 }
